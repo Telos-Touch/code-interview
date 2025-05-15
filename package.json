@@ -1,0 +1,24 @@
+{
+	"name": "code-interview",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "turbo run dev --parallel",
+		"build": "turbo run build",
+		"lint": "turbo run lint",
+		"test": "turbo run test"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.7.1",
+	"dependencies": {
+		"turbo": "^2.5.3"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.0",
+		"eslint": "^9",
+		"eslint-config": "workspace:*"
+	}
+}
